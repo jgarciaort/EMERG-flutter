@@ -1,7 +1,7 @@
 ---
-title: "Ejercicio práctico Rmarkdown"
+title: "Ejercicio práctico EMERG-flutter"
 author:
-    - names: "María Hurtado de Mendoza"
+    - names: "José Carlos García Ortiz"
 
 date: "`r Sys.Date()`" 
 output: 
