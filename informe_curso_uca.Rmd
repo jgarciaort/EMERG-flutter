@@ -28,6 +28,10 @@ data <- read.csv("data/top10s.csv")
 
 ```
 
+## Introducción
+
+Este informe analiza datos musicales del archivo `top10s.csv`, que contiene información sobre canciones populares entre 2010 y 2019. El objetivo es visualizar la frecuencia de géneros musicales y reflexionar sobre su distribución.
+
 # Informe hits de Spotify 2010-2019
 
 ## Datos
