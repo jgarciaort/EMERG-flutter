@@ -64,3 +64,22 @@ plot(dur ~ year, data = data)
 abline(lm(dur ~ year, data = data))
 
 ```
+
+## Código del gráfico
+
+```{r, echo=TRUE}
+# Cargar librerías necesarias
+library(ggplot2)
+library(readr)
+
+# Leer los datos
+top10s <- read_csv("data/top10s.csv")
+
+# Crear un gráfico de barras con los géneros musicales
+ggplot(top10s, aes(x = genre)) +
+  geom_bar(fill = "steelblue") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Frecuencia de géneros musicales en el Top 10 (2010–2019)",
+       x = "Género musical",
+       y = "Número de canciones")
