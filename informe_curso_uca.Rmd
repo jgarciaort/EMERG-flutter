@@ -83,3 +83,9 @@ ggplot(top10s, aes(x = genre)) +
   labs(title = "Frecuencia de géneros musicales en el Top 10 (2010–2019)",
        x = "Género musical",
        y = "Número de canciones")
+```
+## Discusión
+
+El gráfico muestra qué géneros musicales fueron más frecuentes en los éxitos del Top 10 entre 2010 y 2019. Se observa que géneros como *dance pop*, *pop rap* y *electropop* dominan la lista, lo que refleja una clara preferencia por estilos bailables y comerciales en la última década.
+
+Esto sugiere que las tendencias del mercado musical durante ese período estuvieron muy influidas por el consumo digital y las plataformas de streaming, donde ciertos géneros ganan visibilidad más fácilmente.
